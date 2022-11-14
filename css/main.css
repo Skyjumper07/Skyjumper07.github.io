@@ -8,6 +8,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #1B2430;
 }
 
 .container {
@@ -30,6 +31,7 @@ body {
 
 .navbar .menu-items {
   display: flex;
+  background-color: #000000;
 }
 
 .navbar .nav-container li {
@@ -38,7 +40,7 @@ body {
 
 .navbar .nav-container a {
   text-decoration: none;
-  color: #0e2431;
+  color: #ffffff;
   font-weight: 500;
   font-size: 1.2rem;
   padding: 0.7rem;
@@ -84,7 +86,7 @@ body {
   height: 4px;
   width: 100%;
   border-radius: 10px;
-  background: #0e2431;
+  background: #ffffff;
 }
 
 .nav-container .hamburger-lines .line1 {
@@ -103,7 +105,6 @@ body {
 
 .navbar .menu-items {
   padding-top: 120px;
-  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
   height: 100vh;
   width: 100%;
   transform: translate(-150%);
@@ -126,7 +127,7 @@ body {
   top: 5px;
   right: 15px;
   font-size: 1.2rem;
-  color: #0e2431;
+  color: #ffffff;
 }
 
 .nav-container input[type="checkbox"]:checked ~ .menu-items {
